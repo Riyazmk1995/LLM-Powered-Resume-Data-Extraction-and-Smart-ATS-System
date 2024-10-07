@@ -29,6 +29,14 @@ The Smart ATS and Resume Data Extraction tool automates the extraction of releva
 3.	Data Extraction: The extracted text is fed into the Gemini Pro LLM, which processes the content and returns structured data in JSON format.
 4.	ATS Evaluation: Users can paste job descriptions to evaluate the uploaded resumes against the specified criteria, providing insights into the alignment between candidate profiles and job requirements.
 
+### installation
+1. Clone the repository:
+``` git clone <repository-url> ```
+``` cd LLM-Powered-Resume-Data-Extraction-and-Smart-ATS-System ```
+2. Install dependencies:
+``` pip install -r requirements.txt ```
+3. Run the application:
+``` streamlit run app.py ```
 
 ### Contributing
 Feel free to submit pull requests for bug fixes or enhancements. Please ensure your contributions align with the project goals.
